@@ -11,6 +11,7 @@
 using namespace std;
 
 int main(){
+
  	unsigned short uShortValue =65535;
  	cout<<"increment unsigned short"<<uShortValue<<"gives:";
  	cout<<++uShortValue<<endl;
@@ -32,9 +33,9 @@ error was when we exceed the limit imposed by the type chosen in an arithmetic o
 using namespace std;
 
 int main(){
+
 	short signed i=-32767;
-    short unsigned u=i;
-	
+       short unsigned u=i;
 	cout<<"The result of u:"<<u<<endl;
 }
 ![Screenshot (82)](https://user-images.githubusercontent.com/64952843/93899197-bcef9f00-fcfc-11ea-8ef7-826dd8a3c688.png)
@@ -47,9 +48,9 @@ The error arise when converting from signed to unsigned variables .in the exampl
 using namespace std;
 
 int main(){
+
 	long l = 32800;
-    short s = (short)l;
-	
+        short s = (short)l;
 	cout<<"The result of u:"<<s<<endl;
 }
 ![Screenshot (83)](https://user-images.githubusercontent.com/64952843/93899777-56b74c00-fcfd-11ea-9f82-0411757726cb.png)
@@ -58,20 +59,18 @@ The error was when we assigned  long to a short(short s =(short)l;) will cause t
 
 
 
-
-
-
-
-	QUESTION 2
+ # QUESTION
 #include<iostream>
 using namespace std;
 
 void printarray(int arg[],int length){
+
 	for(int n=0;n<length;n++)
 	cout<<arg[n]<<"";cout<<"\n";
 }
 
 int main(){
+
 	int firstarray[]={5,10,15};
 	int secondary[]={2,4,6,8,10};
 	printarray(firstarray,2);
