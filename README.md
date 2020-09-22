@@ -59,7 +59,7 @@ The error was when we assigned  long to a short(short s =(short)l;) will cause t
 
 
 
- # QUESTION
+ # QUESTION 2
 #include<iostream>
 using namespace std;
 
