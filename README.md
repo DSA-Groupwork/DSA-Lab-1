@@ -1,7 +1,12 @@
 # DSA-Lab-1
-Lab About Time space errors
-TIME SPACE ERRORS
-Integer overflow
+# Lab About Time space errors
+
+
+
+ # Integer overflow
+
+
+
 #include<iostream>
 using namespace std;
 
@@ -20,7 +25,9 @@ int main(){
 ![Screenshot (79)](https://user-images.githubusercontent.com/64952843/93900587-3dfb6600-fcfe-11ea-89a4-10b7497925c3.png)
 
 error was when we exceed the limit imposed by the type chosen in an arithmetic operation, when we increment the value in unsigned short the values overflow to 0. This can be avoided when selecting correct data types .
-sign error
+
+ # sign error
+ 
 #include<iostream>
 using namespace std;
 
@@ -34,7 +41,8 @@ int main(){
 
 The error arise when converting from signed to unsigned variables .in the example above if you have a negative signed value(short i = -32767) and you were to assign that value to unsigned  variable (unsigned short u=i),the internal representation of the number is unchanged ,but the  resulting value is being unsigned ,leading to an undesired result (u=32769)
 
-Transaction
+ # Transaction
+
 #include<iostream>
 using namespace std;
 
